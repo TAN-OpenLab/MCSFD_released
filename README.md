@@ -15,7 +15,7 @@ python 3.6
 pytorch 1.7.1
 
 ### Data Preparation
-After you download the **Weibo21** dataset (the way to access is described here), move the `train.pkl`, `val.pkl` and `test.pkl` into the path `MDFEND-Weibo21/data`.
+After you download the **Pheme** dataset, run 'raw_process.py' - 'Bert_sentences.py' - 'data_generator.py' - 'data_split.py'.
 ### Run
 You can run this model through:
 ```python
